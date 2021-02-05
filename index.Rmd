@@ -57,8 +57,9 @@ Please tune into the workshop with a computer that has the following installed (
 
 ```{r eval=FALSE, echo=TRUE}
 install.packages(c("tidyverse", "tidytext", 
-                   "gutenbergr",
+                   "gutenbergr", "widyr",
                    "stopwords", "stm",
+                   "tidygraph", "ggraph",
                    "tidymodels", "glmnet", 
                    "vip", "textrecipes"))
 
@@ -69,8 +70,8 @@ install.packages(c("tidyverse", "tidytext",
 - 00: [Intro](slides/00-intro.html)
 - 01: [Text as tidy data](slides/01-tidytext.html)
 - 02: [More advanced EDA](slides/02-more-eda.html)
-- 03: [Topic modeling](03-topic-models.html)
-- 04: [Supervised text models](04-sml-text.html)
+- 03: [Topic modeling](slides/03-topic-models.html)
+- 04: [Supervised text models](slides/04-sml-text.html)
 
 ## Past workshops
 
